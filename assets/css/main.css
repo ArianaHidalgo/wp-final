@@ -64,6 +64,59 @@
   margin-top: 42px;
 }
 
+.article {
+  background-color: rgba(174, 236, 222, 0.52);
+  padding: 40px;
+}
+.article img {
+  width: 80%;
+  margin: auto;
+}
+.article .article_encab {
+  color: #5EADA1;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+.article .article_title {
+  color: #FFFFFF;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.article .article_conte {
+  color: #818181;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+.article_box i {
+  position: relative;
+  top: 3px;
+  float: left;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #5EADA1;
+  font-size: 22px;
+}
+
+.article_box h3 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.article button {
+  color: #FFFFFF;
+  background-color: #818181;
+  border-radius: 20px;
+  border: 2px solid rgba(152, 147, 147, 0.15);
+  margin-left: 50px;
+  width: 127px;
+}
+
 .main {
   background-color: rgba(174, 236, 222, 0.52);
   width: 1440px;
@@ -107,11 +160,69 @@
   text-align: center;
 }
 
+.section {
+  padding: 50px;
+  background-color: rgba(152, 147, 147, 0.15);
+}
+.section img {
+  width: 100%;
+  height: auto;
+}
+
+.section_detalle .section_encab {
+  color: #70D8C8;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: -10px;
+}
+.section_detalle .section_tit {
+  color: #818181;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.section_detalle .section_conte {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  color: #818181;
+  padding: 12px 0;
+}
+.section_detalle button {
+  background-color: #70D8C8;
+  border-radius: 20px;
+  padding-left: 20px;
+  color: #FFFFFF;
+  padding: 12px;
+  margin: 30px;
+  border: 5px solid #8CEAE3;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.section_extra .section_encab2 {
+  color: #70D8C8;
+  font-family: "Playfair Display", serif;
+  padding: 8px;
+}
+.section_extra .section_cont2 {
+  color: #818181;
+}
+
 .footer {
-  background-color: #818181;
+  background-color: #C3C4C4;
   text-align: center;
   width: 1440px;
-  height: 100px;
+  height: 150px;
+}
+.footer .footer_icon {
+  color: #FFFFFF;
+  font-size: 50px;
+  padding: 12px;
+}
+.footer .footer_text {
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=main.css.map */

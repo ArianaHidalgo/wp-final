@@ -1,6 +1,15 @@
 .footer{
-    background-color: $yar;
+    background-color: $gray;
     text-align: center;
     width: 1440px;
-    height: 100px;
+    height: 150px;
+    .footer_icon{
+        color: $white;
+        font-size: $large;
+        padding: 12px;
+    }
+    .footer_text{
+        color: $white;
+        
+    }
 }
