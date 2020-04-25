@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display:ital,wght@0,400;0,600;1,500&family=Salsa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&family=Playfair+Display:ital,wght@0,400;1,600&family=Salsa&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1b4a870847.js" crossorigin="anonymous"></script>
     <title>Gatos</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-gray">
+        <img src="assets/img/logo-azir.svg" alt="">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -18,28 +19,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Nosotros<span class="sr-only">(current)</span></a>
+              <a class="nav-link text-white" href="#">Nosotros<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Galeria</a>
+              <a class="nav-link text-white" href="#">Galeria</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+              <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
     </nav>
 
     <header class="header">
         <div class="header_titulo">
-            <p class="header_titulo-sub">HOTEL VETERINARIA Y TIENDA ESPECIALIZADA EN FELINOS</p>
-            <h1 class="header_titulo-tit">Mi Gato Azir</h1>
-            <h3 class="header_titulo-sub2">Atencion a domicilio y envios a todo chile</h3>
+            <p class="header_sub">HOTEL VETERINARIA Y TIENDA ESPECIALIZADA EN FELINOS</p>
+            <h1 class="header_tit">Mi Gato Azir</h1>
+            <h3 class="header_tit2">Atencion a domicilio y envios a todo chile</h3>
+            <button class="header_button">URGENCIA</button>
         </div>
+      
     </header>
 
     <main class="main">
@@ -49,27 +48,39 @@
                 <div class="col-sm-4">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="card-title">
+                            <div class="icon">
+                                <a href="#"><i class="fas fa-user-md"></i></a>
+                            </div>
+                            <h1>Veterinaria</h1>
+                        </div>
+                      <p class="card-text">Examenes,cirugia, ecografia, radiografia, hospitalizacion peluqueria y estetica</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="card">
                       <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="card-title">
+                            <div class="icon">
+                                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                            </div>
+                            <h1>Tienda</h1>
+                        </div>
+                        <p class="card-text">accesorios, alimento, ropa, juegos y mas. Retiro en tienda o despacho a domicilio </p>
                       </div>
                     </div>
                   </div>
                 <div class="col-sm-4">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <div class="card-title">
+                            <div class="icon">
+                                <a href="#"><i class="fas fa-cat"></i></a>
+                            </div>
+                            <h1>Blog</h1>
+                        </div>
+                      <p class="card-text">consejos, curiosidades, comunidad y todo sobre  tu gato y como poder ayudarlo.</p>
                     </div>
                   </div>
                 </div>
@@ -77,20 +88,20 @@
         </div>
     </main>
 
-    <section class="section row"> <!-- seccion de hotel-->
-        <div class="col-md-6">
+    <section class="section container row"> <!-- seccion de hotel-->
+        <div class="col-xs-12 col-md-6">
             <p>Cariño y atencion</p>
             <h2>Servicio Hotel de lujo</h2>
             <p>con mas de 5 años de experiencia en cuidado felino, Mi Gato Azir abre el primer Hotel Premium felino a nivel nacional, totalmente equipado y con personal capacitado en situaciones de riesgo para darle a tu minino la mejor experiencia mientras tu no estas con el, puedes hacerle seguimiento 24/7 mediante camaras que tenemos en diferentes puntos del lugar transmitiendo continuamente</p>
             <button>INFORMACION Y RESERVAS</button>
         </div>
-        <div class="col-md-3">
-            <img src="" alt="">
+        <div class="col-xs-12 col-md-3">
+            <img src="assets/img/comida.jpg" alt="">
             <h3>Alimento Premium</h3>
             <p>Zona ambientada especialmente para su alimentacion, con platos de ceramica sanitizados, sistema de rotacion automatica de agua y juegos estimulantes de apetito</p>
         </div>
-        <div class="col-md-3">
-            <img src="" alt="">
+        <div class="col-xs-12 col-md-3">
+            <img src="assets/img/naturaleza.jpg" alt="">
             <h3>Espacios naturalez</h3>
             <p>El Hotel cuenta con un amplio bosque completamente cercado y con camaras de vigilancia. un ambiente natural potencia y mejora habilidades de cazeria con alto gasto energetico</p>
 
@@ -110,13 +121,13 @@
 
     <footer class="footer"> <!--footer con iconos a redes + derechos-->
         <div class="footer_icon">
-            <i></i>
-            <i></i>
-            <i></i>
-            <i></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
         </div>
         <div class="footer_text">
-            <p>derechos reservados bla bla</p>
+            <p>Copyright © 2020 All rights Reserved. Desingn by ArianaHidalgo</p>
         </div>
     </footer>
 

@@ -1,13 +1,17 @@
 // paleta de colores 
 
 //primer esquema 
-$cal: #2EC6BB;
-$cele: #8CEAE3;
+$cal: #2EC6BB; //botn
+$cele: #8CEAE3; //borde boton
+$caja: #5EADA1; //caja icono 
+$je: #5EADA1; // encabezado servicio
+$azi: #70D8C8; // letras servicios
+$hol: rgba(174, 236, 222, 0.52); // fondo servicio
 $white: #FFFFFF;
 
 //segundo esquema
 $gray: #C3C4C4;
-$yar: #B4B7B7;
+$yar: #818181;
 $gyr: #9A9B9B;
 $black: #020707;
 //tercer esquema 
@@ -18,10 +22,11 @@ $mont: 'Montserrat', sans-serif;
 $play: 'Playfair Display', serif;
 
 //tamaños de fuente
-$medium: 18px;
+$small: 18px;
+$medium: 22px;
 $large: 50px;
 $x-large: 70px;
-$xx-large: 100px;
+$xx-large: 80px;
 //pesos
 $regular: 400;
 $bold: 700;

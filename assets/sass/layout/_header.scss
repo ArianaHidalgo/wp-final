@@ -1,0 +1,51 @@
+.header{
+    width: 1440px;
+    height: 650px;
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    opacity: 0.9;
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        top:0;
+        width: 1440px;
+        height: 650px;
+        background: $yar;
+        position: absolute;
+        opacity: 0.2;
+        z-index: -1;
+    }
+    .header_titulo{
+        width: 620px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        .header_tit{
+            font-family: $play;
+            font-size: $xx-large;
+        }
+        .header_tit2{
+            font-family: $play;
+            font-size: $small;
+        }
+        .header_sub{
+            font-size: $medium;
+            margin: 0;
+        }
+        .header_button{
+            border: 3px solid $cele;
+            width: 180px;
+            background-color: $cal;
+            color: $white;
+            border-radius: 20px;
+            margin-top: 42px;
+        }
+    }
+}
