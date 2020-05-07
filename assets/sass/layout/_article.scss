@@ -7,10 +7,9 @@
     }
     .article_encab{
         color: $je;
-        font-family: $play;
         font-weight: bold;
-        font-size: $small;
         margin-bottom: 0;
+        @extend %text
     }
     .article_title{
         color: $white;
@@ -36,9 +35,8 @@
 }
 .article_box h3{
     color: $white;
-    font-size: $small;
-    font-family: $play;
     font-weight: $bold;
+    @extend %text
 }
  .article button{
      @include gray-full;

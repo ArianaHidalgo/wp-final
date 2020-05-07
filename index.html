@@ -22,7 +22,10 @@
               <a class="nav-link text-white" href="#">Nosotros<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Galeria</a>
+              <a class="nav-link text-white" href="#hotel">Hotel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#terapia">GatoTerapia</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
@@ -88,7 +91,7 @@
         </div>
     </main>
 
-    <section class="section row"> <!-- seccion de hotel-->
+    <section id="hotel" class="section row"> <!-- seccion de hotel-->
         <div class="section_detalle col-xs-12 col-md-6">
             <p class="section_encab">Cariño y atencion</p>
             <h2 class="section_tit">Servicio Hotel de lujo</h2>
@@ -108,7 +111,7 @@
         </div>
     </section>
 
-    <article class="article row"> <!--seccion gato terapia, analizar si poner o no iconos de check , dependiendo la paja que pueda resultar-->
+    <article id="terapia" class="article row"> <!--seccion gato terapia, analizar si poner o no iconos de check , dependiendo la paja que pueda resultar-->
         <div class="col-md-6">
             <p class="article_encab">pesonalizada - no invasiva</p>
             <h2 class="article_title">Gato Terapia</h2>
@@ -144,23 +147,87 @@
             <img src="assets/img/caracho.jpg" alt="gatoenojon">
         </div>
         <button>Contacto</button>
+        <button data-toggle="modal" data-target="#ver">Ver Mas</button>
+        <!-- Modal Ver mas -->
+        <div class="modal fade" id="ver" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Gato Terapia </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="assets/img/group-of-bengal-sitting-in-front-of-a-white-backgr-P7QDRCF.jpg" class="img-fluid my-3" alt="asado">
+                <p>La gatoterapia es un tratamiento tradicional contra los síntomas del estrés, la ansiedad y el bajo estado de ánimo con la ayuda de gatos domésticos. La utilización de este tipo de terapia basado en la compañía que proveen estos pequeños felinos domésticos puede ayudar a mejorar la salud física y mental y la calidad de vida en general, a través de la interacción amistosa entre el gato y la persona.
+
+                  Lo positivo de la gatoterapia es, justamente su sencillez: se fundamenta en la compañía que se ofrecen e gato y la persona y el modo en el que interactúan.</p>
+
+                <p>Los beneficios de la gatoterapia en personas con algún tipo de discapacidad física o psíquica o con alguna clase de trastorno emocional o psíquico, han sido estudiados. Por ejemplo, entre los trastornos asociados a demencias (Alzheimer), el autismo, el Síndrome de Down, el TDAH y los trastornos conductuales en niños y en trastornos del estado de ánimo, los beneficios parecen claros.</p>
+
+                <p>varios estudios revelaron que los pacientes aquejados de cardiopatía reportaron una progresión mejor y más rápida si convivían con un felino, incrementando así el porcentaje de supervivencia un año después de haber padecido un episodio agudo como por ejemplo, un infarto (Friedmann y Thomas, 1995).
+                Las personas que viven con gatos en casa tienen una probabilidad más baja de fallecer a causa de un infarto. Esta fue la conclusión a la que llegaron varios investigadores liderados por A. Baun de la Nursing Research. En el caso de la convivencia con perros, no se reportó el mismo efecto protector, posiblemente debido a los cuidados diarios que requieren los canes: los dueños de perros estuvieron en probabilidades cercanas a la media.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </article>
 
     <footer class="footer"> <!--footer con iconos a redes + derechos-->
         <div class="footer_icon">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="far fa-envelope"></i>
-        </div>
-        <div class="footer_text">
+            
+          <div class="container my-5 py-3">
+            <div class="bg-gray text-white rounded pt-4 pb-5">
+              <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner text-center">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-3">
+                        <i class="fab fa-facebook-square" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Facebook"></i>
+                      </div>
+                      <div class="col-3">
+                        <i class="fab fa-instagram"data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Instagram"></i>
+                      </div>
+                      <div class="col-3">
+                        <i class="fab fa-twitter" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Twitter"></i>
+                      </div>
+                      <div class="col-3">
+                        <i class="far fa-envelope" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="mail"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-3">
+                        <i class="far fa-envelope" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="mail"></i>
+                      </div>
+                      <div class="col-3">
+                        <i class="fab fa-twitter" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Twitter"></i>
+                      </div>
+                      <div class="col-3">
+                        <i class="fab fa-instagram"data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Instagram"></i>
+                      </div>
+                      <div class="col-3">
+                        <i class="fab fa-facebook-square" data-container="body" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="Facebook"></i>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_text">
             <p>Copyright © 2020 All rights Reserved. Desingn by ArianaHidalgo</p>
-        </div>
+          </div>
+        </div>    
     </footer>
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--mi script-->
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

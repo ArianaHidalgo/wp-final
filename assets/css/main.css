@@ -1,3 +1,8 @@
+.article_box h3, .article .article_encab {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
 .bg-gray {
   background-color: #C3C4C4;
 }
@@ -107,10 +112,10 @@
   .header .header_titulo .header_button {
     border: 3px solid #8CEAE3;
     width: 100px;
-    background-color: #2EC6BB;
-    color: #FFFFFF;
     border-radius: 20px;
     margin-top: 5px;
+    background-color: #2EC6BB;
+    color: #FFFFFF;
   }
 }
 .article {
@@ -123,9 +128,7 @@
 }
 .article .article_encab {
   color: #5EADA1;
-  font-family: "Playfair Display", serif;
   font-weight: bold;
-  font-size: 18px;
   margin-bottom: 0;
 }
 .article .article_title {
@@ -152,14 +155,12 @@
 
 .article_box h3 {
   color: #FFFFFF;
-  font-size: 18px;
-  font-family: "Playfair Display", serif;
   font-weight: 700;
 }
 
 .article button {
-  color: #FFFFFF;
   background-color: #818181;
+  color: #FFFFFF;
   border-radius: 20px;
   border: 2px solid rgba(152, 147, 147, 0.15);
   margin-left: 50px;
@@ -299,15 +300,28 @@
   background-color: #C3C4C4;
   text-align: center;
   width: 100%;
-  height: 150px;
+  height: 250px;
 }
 .footer .footer_icon {
   color: #FFFFFF;
-  font-size: 50px;
+  font-size: 22px;
   padding: 12px;
 }
 .footer .footer_text {
+  width: 650px;
+  text-align: center;
+  margin-left: -170px;
   color: #FFFFFF;
+}
+
+.footer .container {
+  width: 220px;
+  position: relative;
+  bottom: 70px;
+}
+
+.bg-gray {
+  background-color: #C3C4C4;
 }
 
 @media (max-width: 568px) {
