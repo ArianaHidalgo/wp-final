@@ -302,6 +302,22 @@
     width: 105%;
   }
 }
+form {
+  width: 480px;
+  margin: auto;
+  padding: 20px 0;
+  font-family: "Playfair Display", serif;
+}
+
+button {
+  margin-left: 50px;
+  width: 90px;
+  color: #FFFFFF;
+  background-color: #2EC6BB;
+  border-radius: 20px;
+  border: 3px solid #8CEAE3;
+}
+
 .footer {
   background-color: #C3C4C4;
   text-align: center;
