@@ -29,4 +29,12 @@ R: Salsa, Montserat y PlayfairDisplay
                                  
 Identificador gráfico (logotipo, isotipo).:
 
-Se adjuntas las imagenes.
+Se adjuntas las imagenes:
+Icono svg
+![WhatsApp Image 2020-05-07 at 02 33 15](https://user-images.githubusercontent.com/44588089/81263520-cc03d800-900d-11ea-98be-2a54854b75f6.jpeg)
+
+Logo svg
+![WhatsApp Image 2020-05-07 at 02 33 18](https://user-images.githubusercontent.com/44588089/81263663-138a6400-900e-11ea-82c0-e801170d9de5.jpeg)
+
+Wireframe
+![WhatsApp Image 2020-05-07 at 02 33 23](https://user-images.githubusercontent.com/44588089/81263749-42a0d580-900e-11ea-83bb-07a0ffac2c67.jpeg)
