@@ -69,6 +69,12 @@
   margin-top: 42px;
 }
 
+.header_titulo:hover .header_button {
+  background-color: #C3C4C4;
+  color: #2EC6BB;
+  width: 200px;
+}
+
 @media (max-width: 568px) {
   .header {
     width: 100%;
