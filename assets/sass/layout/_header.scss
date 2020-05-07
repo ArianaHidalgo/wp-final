@@ -91,10 +91,9 @@
         .header_button{
             border: 3px solid $cele;
             width: 100px;
-            background-color: $cal;
-            color: $white;
             border-radius: 20px;
             margin-top: 5px;
+            @include verde-full;
         }
     }
 }

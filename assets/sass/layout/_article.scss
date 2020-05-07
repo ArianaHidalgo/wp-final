@@ -41,8 +41,7 @@
     font-weight: $bold;
 }
  .article button{
-     color: $white;
-     background-color: $yar;
+     @include gray-full;
      border-radius: 20px;
      border: 2px solid $pio;
      margin-left: 50px;
