@@ -7,7 +7,7 @@
     }
     .article_encab{
         color: $je;
-        font-weight: bold;
+        font-weight: $bold;
         margin-bottom: 0;
         @extend %text
     }
