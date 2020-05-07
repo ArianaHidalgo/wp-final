@@ -49,3 +49,8 @@
         color: $yar;
     }
 }
+@media (max-width: 568px){
+    .section{
+        width: 105%;
+    }
+}  

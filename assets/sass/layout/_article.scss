@@ -49,4 +49,11 @@
      width: 127px;
  }
 
-
+ @media (max-width: 568px){
+    .article{
+        width: 105%;
+    }
+    .img{
+       margin: 12px 0 22px 28px ;
+    }
+}  

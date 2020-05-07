@@ -1,20 +1,12 @@
 .bg-gray{
     background-color: $gray;
 }
-
-.navbar{
-    img{
-    color: $white;
-    width: 120px;
-    padding-left: 40px;
-    box-sizing: border-box;
-    }
-
-    .collapse .navbar-collapse{
-       
-        
-        .nav-item{
-            float: right;
-        }
+.navbar img{
+    width: 100px;
+}
+@media (max-width:568px){
+    nav{
+        width: 100%;
+        height: 80px;
     }
 }
